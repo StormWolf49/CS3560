@@ -2,9 +2,9 @@ public class Employee {
     private String name;
     protected Integer hours;
 
-    public Employee(String n, Integer h) {
-        name = n;
-        hours = h;
+    public Employee(String name, Integer hours) {
+        this.name = name;
+        this.hours = hours;
     }
 
     public Double calculateSalary() {

@@ -10,7 +10,7 @@ public class Book {
         author = "";
     }
 
-    public void addCourse(Course c) {
-        courses.add(c);
+    public void addCourse(Course course) {
+        courses.add(course);
     }
 }

@@ -2,11 +2,11 @@ public class Course {
     private Integer code;
     private Book book;
 
-    public Course(Integer c) {
-        code = c;
+    public Course(Integer code) {
+        this.code = code;
     }
-    public Course(Integer c, Book b) {
-        code = c;
-        book = b;
+    public Course(Integer code, Book book) {
+        this.code = code;
+        this.book = book;
     }
 }

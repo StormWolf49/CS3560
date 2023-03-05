@@ -1,9 +1,9 @@
 public class Professor extends Employee {
     private String field;
 
-    public Professor(String n, Integer h, String f) {
-        super(n, h);
-        field = f;
+    public Professor(String name, Integer hours, String field) {
+        super(name, hours);
+        this.field = field;
     }
 
     public Double calculateSalary() {

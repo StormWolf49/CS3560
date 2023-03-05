@@ -2,8 +2,8 @@ public class Student {
     private String name;
     private Transcript transcript;
     
-    public Student(String n, Transcript t) {
-        name = n;
-        transcript = t;
+    public Student(String name, Transcript transcript) {
+        this.name = name;
+        this.transcript = transcript;
     }
 }
