@@ -1,13 +1,11 @@
 import java.util.ArrayList;
 
-public class Book {
+public class Person {
     private String name;
-    private String author;
     private ArrayList<watch> watched = new ArrayList<>();
 
-    public Book() {
-        name = "";
-        author = "";
+    public Person(String name) {
+        this.name = name;
     }
 
     public void addWatch(watch watch) {

@@ -1,11 +1,9 @@
 public class Player {
     private String name;
     private Boolean expert;
-    private Team team;
 
-    public Player(String name, Boolean expert, Team team) {
+    public Player(String name, Boolean expert) {
         this.name = name;
         this.expert = expert;
-        this.team = team;
     }
 }

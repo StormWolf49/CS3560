@@ -6,6 +6,6 @@ public class Team {
 
     public Team() {
         code = 0;
-        players.add(new Player("", false, this));
+        players.add(new Player("", false));
     }
 }

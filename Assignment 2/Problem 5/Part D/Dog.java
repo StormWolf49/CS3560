@@ -8,9 +8,9 @@ public class Dog {
     public Dog() {
         breed = "";
         name = "";
-        paws.add(new Paw(1));
-        paws.add(new Paw(2));
-        paws.add(new Paw(3));
-        paws.add(new Paw(4));
+        paws.add(new Paw(1, this));
+        paws.add(new Paw(2, this));
+        paws.add(new Paw(3, this));
+        paws.add(new Paw(4, this));
     }
 }

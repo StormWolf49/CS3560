@@ -9,40 +9,40 @@ public class Student {
         gpa = 0.0;
     }
 
-    public Student(String n, String m) {
-        name = n;
-        major = m;
-        gpa = 0.0;
+    public Student(String name, String major) {
+        this.name = name;
+        this.major = major;
+        this.gpa = 0.0;
     }
 
-    public Student(String n, String m, Double g) {
-        name = n;
-        major = m;
-        gpa = g;
+    public Student(String name, String major, Double gpa) {
+        this.name = name;
+        this.major = major;
+        this.gpa = gpa;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String n) {
-        name = n;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getMajor() {
         return major;
     }
 
-    public void setMajor(String m) {
-        major = m;
+    public void setMajor(String major) {
+        this.major = major;
     }
 
     public Double getGpa() {
         return gpa;
     }
 
-    public void setGpa(Double g) {
-        gpa = g;
+    public void setGpa(Double gpa) {
+        this.gpa = gpa;
     }
 
     public String toString() {
